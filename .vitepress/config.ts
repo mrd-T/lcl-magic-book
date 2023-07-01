@@ -23,17 +23,19 @@ export default defineConfig({
           items: [
             { text: '引言', link: '/missions/' },
             {
-              text: 'M0：Git 篇',
+              text: 'M0 - Git 篇',
               link: '/missions/M0/',
-              items: [
-                { text: 'M0.1', link: '/missions/M0/M0-1' },
-              ],
+              items: [{ text: 'M0.1', link: '/missions/M0/M0-1' }],
             },
-            { text: 'M1：爬虫篇 🔷', items: [{ text: 'M1.1', link: '/missions/M1/M1-1' }] },
-            { text: 'M2：后端篇 🔒', items: [] },
-            { text: 'M3：数据库篇 🔒', items: [] },
-            { text: 'M4：前端篇 🔒', items: [] },
-            { text: 'M5：集成部署篇 🔒', items: [] },
+            {
+              text: 'M1 - 爬虫篇 🔷',
+              link: '/missions/M1/',
+              items: [{ text: 'M1.1', link: '/missions/M1/M1-1' }],
+            },
+            { text: 'M2 - 后端篇 🔒', items: [] },
+            { text: 'M3 - 数据库篇 🔒', items: [] },
+            { text: 'M4 - 前端篇 🔒', items: [] },
+            { text: 'M5 - 集成部署篇 🔒', items: [] },
           ],
         },
       ],
