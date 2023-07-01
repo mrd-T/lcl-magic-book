@@ -29,9 +29,12 @@ export default defineConfig({
               items: [{ text: 'M0.1', link: '/missions/M0/M0-1' }],
             },
             {
-              text: 'M1 - 爬虫篇 🔷',
+              text: 'M1 - 爬虫篇',
               link: '/missions/M1/',
-              items: [{ text: 'M1.1', link: '/missions/M1/M1-1' }],
+              items: [
+                { text: 'M1.1', link: '/missions/M1/M1-1' },
+                { text: 'M1.2 🔒' },
+              ],
             },
             { text: 'M2 - 后端篇 🔒', items: [] },
             { text: 'M3 - 数据库篇 🔒', items: [] },
@@ -43,7 +46,10 @@ export default defineConfig({
       '/catalog/': [
         {
           text: '魔法目录',
-          items: [{ text: '引言', link: '/catalog/' }],
+          items: [
+            { text: '引言', link: '/catalog/' },
+            { text: 'Git', link: '/catalog/git/' },
+          ],
         },
       ],
       '/pleasant-gallery/': [],
