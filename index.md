@@ -16,7 +16,7 @@ hero:
     alt: Light Magic Book
   actions:
     - theme: brand
-      text: 开启见习任务：封印解除！
+      text: 开启见习任务！封印解除！
       link: /missions/
     - theme: alt
       text: 魔法目录

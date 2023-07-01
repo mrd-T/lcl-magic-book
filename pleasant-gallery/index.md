@@ -1,3 +1,8 @@
+---
+editLink: false
+aside: false
+---
+
 # 意义不明展览馆
 
 ## 群头像展览馆

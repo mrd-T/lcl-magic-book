@@ -14,6 +14,7 @@ export default defineConfig({
     nav: [
       { text: '返回奇点', link: 'https://lcl.sdutacm.cn' },
       { text: '意义不明展览馆', link: '/pleasant-gallery/' },
+      { text: '关于本书', link: '/about/' },
     ],
 
     sidebar: {
