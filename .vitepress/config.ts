@@ -7,9 +7,7 @@ export default defineConfig({
   description: 'Chase the Light',
   base: '/magicbook/',
   cleanUrls: true,
-  head: [
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/magicbook/favicon.ico' }],
-  ],
+  head: [['link', { rel: 'icon', type: 'image/x-icon', href: '/magicbook/favicon.ico' }]],
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -24,7 +22,14 @@ export default defineConfig({
           text: '见习任务',
           items: [
             { text: '引言', link: '/missions/' },
-            { text: 'M0：Git', items: [{ text: 'M0.1', link: '/missions/M0/M0-1' }] },
+            {
+              text: 'M0：Git',
+              link: '/missions/M0/',
+              items: [
+                { text: 'M0.1', link: '/missions/M0/M0-1' },
+                { text: 'M0.2', link: '/missions/M0/M0-2' },
+              ],
+            },
             { text: 'M1：爬虫 🔷', items: [{ text: 'M1.1', link: '/missions/M1/M1-1' }] },
             { text: 'M2：后端 🔒', items: [] },
             { text: 'M3：数据库 🔒', items: [] },
@@ -36,9 +41,7 @@ export default defineConfig({
       '/catalog/': [
         {
           text: '魔法目录',
-          items: [
-            { text: '引言', link: '/catalog/' },
-          ],
+          items: [{ text: '引言', link: '/catalog/' }],
         },
       ],
       '/pleasant-gallery/': [],
@@ -53,7 +56,7 @@ export default defineConfig({
 
     footer: {
       message: '由三位创世大魔法使共同写成，作为世界树记忆被封存并藉由元素脉络传播至全宇宙。',
-      copyright: 'Copyright © 2023-present SDUTACM',
+      copyright: '© 2023-present SDUTACM Light Cone Lab',
     },
 
     outline: {
@@ -64,8 +67,8 @@ export default defineConfig({
       prev: '回溯上一页',
       next: '开启下一页',
     },
-    darkModeSwitchLabel: '外观',
-    sidebarMenuLabel: '菜单',
-    returnToTopLabel: '飞回顶部',
+    darkModeSwitchLabel: '切换光/暗属性',
+    sidebarMenuLabel: '光锥罗盘',
+    returnToTopLabel: '传送至顶部',
   },
 });
