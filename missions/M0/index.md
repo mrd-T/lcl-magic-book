@@ -11,3 +11,4 @@ Git 是一个分布式版本控制系统，用于敏捷高效地处理任何或�
 ## 推荐学习资料
 
 - <https://learngitbranching.js.org/?locale=zh_CN>
+- <https://git-scm.com/book/zh/v2>
