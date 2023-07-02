@@ -20,7 +20,7 @@ aside: false
 |                                      <!-- -->                                      |                                      <!-- -->                                      |                                      <!-- -->                                      |                                      <!-- -->                                      |
 | :--------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
 | <img src="./avatars/lcl_brand_icon_1.png" alt="#1" ><center>#1 2023-06-28</center> | <img src="./avatars/lcl_brand_icon_2.png" alt="#2" ><center>#2 2023-06-29</center> | <img src="./avatars/lcl_brand_icon_3.png" alt="#3" ><center>#3 2023-06-30</center> | <img src="./avatars/lcl_brand_icon_4.png" alt="#4" ><center>#4 2023-07-01</center> |
-| <img src="./avatars/lcl_brand_icon_5.png" alt="#5" ><center>#5 2023-07-02</center> |                                                                                    |                                                                                    |                                                                                    |
+| <img src="./avatars/lcl_brand_icon_5.png" alt="#5" ><center>#5 2023-07-02</center> | <img src="./avatars/lcl_brand_icon_6.png" alt="#6" ><center>#6 2023-07-03</center> |                                                                                    |                                                                                    |
 
 <style scoped>
   table>thead>tr {
